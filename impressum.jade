@@ -1,0 +1,77 @@
+- var title = "Impressum | Florian Donderer"
+- var bodyclass = "impressum"
+
+include head.jade
+
+.navbar-fixed
+  nav(role="navigation").header
+    .nav-wrapper
+      a#logo-container.left.brand-logo(href="index.html") Florian Donderer
+      ul.right.hide-on-med-and-down
+        li
+          a(href="index.html") Home
+        li.active
+          a(href="vita.html") Vita
+        li
+          a(href="presse.html") Presse
+        li
+          a(href="konzerte.php") Konzerte
+        li
+          a(href="projekte.html") Projekte
+        li
+          a(href="medien.html") Medien
+        //- li
+        //-   a(href="kontakt.html") Kontakt
+      ul#nav-mobile.side-nav.right
+        li
+          a(href="index.html") Home
+        li.active
+          a(href="vita.html") Vita
+        li
+          a(href="presse.html") Presse
+        li
+          a(href="konzerte.php") Konzerte
+        li
+          a(href="projekte.html") Projekte
+        li
+          a(href="medien.html") Medien
+        //- li
+        //-   a(href="kontakt.html") Kontakt
+        li.nextconcert
+
+      a.button-collapse.right(href="#", data-activates="nav-mobile")
+        i.material-icons menu
+
+.row
+  h3.col.s10.push-s1.m5.push-m1 Impressum
+
+
+.row
+  .col.s10.push-s1.m4.push-m1
+    address Florian Donderer
+      br
+      | Prangenstr. 4
+      br
+      | 28203 Bremen
+      br
+      | Germany
+      br
+      br
+      | E-Mail: florian.donderer ät gmx punkt de
+      //- br
+      //- | USt-IdNr.: DE 812869405
+      //- br
+      //- | eingetragen im Handelsregister des Amtsgerichtes Berlin
+      //- br
+      //- | Handelsregisternummer HRB 73266
+
+  .col.s10.push-s1.m5.push-m2
+    h5 Rechtliche Hinweise zur Webseite
+    p Alle Texte, Bilder und weiter hier veröffentlichten Informationen unterliegen dem Urheberrecht des Anbieters, soweit nicht Urheberrechte Dritter bestehen. In jedem Fall ist eine Vervielfältigung, Verbreitung oder öffentliche Wiedergabe ausschließlich im Falle einer widerruflichen und nicht übertragbaren Zustimmung des Anbieters gestattet.
+
+    p Für alle mittels Querverweis (Link) verbundenen Webinhalte übernimmt der Anbieter keine Verantwortung, da es sich hierbei nicht um eigene Inhalte handelt. Die verlinkten Seiten wurden auf rechtswidrige Inhalte überprüft, zum Zeitpunkt der Verlinkung waren solche nicht erkennbar. Verantwortlich für den Inhalt der verlinkten Seiten ist deren Betreiber. Der Anbieter hat hierzu keine allgemeine Überwachungs- und Prüfungspflicht. Bei Bekanntwerden einer Rechtsverletzung wird der entsprechende Link jedoch umgehend entfernt.
+
+
+
+
+include footer.jade

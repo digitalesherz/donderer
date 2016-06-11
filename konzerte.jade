@@ -1,0 +1,354 @@
+- var title = "Aktuelle Konzerte | Florian Donderer"
+- var bodyclass = "konzerte"
+
+include head.jade
+
+.navbar-fixed
+  nav(role="navigation").header
+    .nav-wrapper
+      a#logo-container.left.brand-logo(href="index.html") Florian Donderer
+      ul.right.hide-on-med-and-down
+        li
+          a(href="index.html") Home
+        li
+          a(href="vita.html") Vita
+        li
+          a(href="presse.html") Presse
+        li.active
+          a(href="konzerte.php") Konzerte
+        li
+          a(href="projekte.html") Projekte
+        li
+          a(href="medien.html") Medien
+        //- li
+        //-   a(href="kontakt.html") Kontakt
+      ul#nav-mobile.side-nav.right
+        li
+          a(href="index.html") Home
+        li
+          a(href="vita.html") Vita
+        li
+          a(href="presse.html") Presse
+        li.active
+          a(href="konzerte.php") Konzerte
+        li
+          a(href="projekte.html") Projekte
+        li
+          a(href="medien.html") Medien
+        //- li
+        //-   a(href="kontakt.html") Kontakt
+      a.button-collapse.right(href="#", data-activates="nav-mobile")
+        i.material-icons menu
+
+
+.row
+  .col.s12.center
+    h1 Konzerte
+
+.calendar.row
+  .col.s10.push-s1
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1224711217554850", title="Konzert mit Werke von Schumann")
+        h3(itemprop="name") Werke von Schumann
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2015-12-17T12:00")
+      time
+        p.date
+          big 17.
+          | Dezember 2015
+        | Donnerstag, 12:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1224711217554850/", title="Konzert mit Werke von Schumann auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1653049728266892", title="Konzert mit Werke von Schumann")
+        h3(itemprop="name") Werke von Schumann
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2015-12-18T12:00")
+      time
+        p.date
+          big 18.
+          | Dezember 2015
+        | Freitag, 12:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1653049728266892/", title="Konzert mit Werke von Schumann auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1645666292339537", title="Konzert mit Signum Quartett @ Festival Biennale")
+        h3(itemprop="name") Signum Quartett @ Festival Biennale
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-01-16T20:30")
+      time
+        p.date
+          big 16.
+          | Januar 2016
+        | Samstag, 20:30 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1645666292339537/", title="Konzert mit Signum Quartett @ Festival Biennale auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1523700871289202", title="Konzert mit Signum Quartett im Bibliothekssaal Polling")
+        h3(itemprop="name") Signum Quartett im Bibliothekssaal Polling
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-01-22T19:00")
+      time
+        p.date
+          big 22.
+          | Januar 2016
+        | Freitag, 19:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1523700871289202/", title="Konzert mit Signum Quartett im Bibliothekssaal Polling auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1054327664631564", title="Konzert mit concertmaster | Mendelssohn Bartholdy »Elias«")
+        h3(itemprop="name") concertmaster | Mendelssohn Bartholdy &#187;Elias&#171;
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Konzerthaus Dortmund, Dortmund, Germany
+      meta(itemprop="startDate", content="2016-01-29T18:00")
+      time
+        p.date
+          big 29.
+          | Januar 2016
+        | Freitag, 18:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1054327664631564/", title="Konzert mit concertmaster | Mendelssohn Bartholdy »Elias« auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1728967134005913", title="Konzert mit concertmaster | Mendelssohn Bartholdy »Elias«")
+        h3(itemprop="name") concertmaster | Mendelssohn Bartholdy &#187;Elias&#171;
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Festspielhaus Baden-Baden, Baden-Baden, Germany
+      meta(itemprop="startDate", content="2016-01-30T09:00")
+      time
+        p.date
+          big 30.
+          | Januar 2016
+        | Samstag, 09:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1728967134005913/", title="Konzert mit concertmaster | Mendelssohn Bartholdy »Elias« auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1038413056231794", title="Konzert mit string quartet | Signum Quartett")
+        h3(itemprop="name") string quartet | Signum Quartett
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Fuerteventura, Fuerteventura, Spain
+      meta(itemprop="startDate", content="2016-02-02T12:00")
+      time
+        p.date
+          big  2.
+          | Februar 2016
+        | Dienstag, 12:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1038413056231794/", title="Konzert mit string quartet | Signum Quartett auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1088811404470824", title="Konzert mit string quartet | Signum Quartett")
+        h3(itemprop="name") string quartet | Signum Quartett
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Fuerteventura, Fuerteventura, Spain
+      meta(itemprop="startDate", content="2016-02-02T12:00")
+      time
+        p.date
+          big  2.
+          | Februar 2016
+        | Dienstag, 12:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1088811404470824/", title="Konzert mit string quartet | Signum Quartett auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1765364513691391", title="Konzert mit recording | British oboe quartets")
+        h3(itemprop="name") recording | British oboe quartets
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Sendesaal Bremen, Bremen, Germany
+      meta(itemprop="startDate", content="2016-02-14T11:00")
+      time
+        p.date
+          big 14.
+          | Februar 2016
+        | Sonntag, 11:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1765364513691391/", title="Konzert mit recording | British oboe quartets auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1523495911280989", title="Konzert mit quartet | Signum Quartett")
+        h3(itemprop="name") quartet | Signum Quartett
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-02-24T19:30")
+      time
+        p.date
+          big 24.
+          | Februar 2016
+        | Mittwoch, 19:30 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1523495911280989/", title="Konzert mit quartet | Signum Quartett auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/532099010276642", title="Konzert mit Quartet | Signum Quartett in Nottingham")
+        h3(itemprop="name") Quartet | Signum Quartett in Nottingham
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Djanogly Recital Hall, Nottingham, United Kingdom
+      meta(itemprop="startDate", content="2016-02-25T20:30")
+      time
+        p.date
+          big 25.
+          | Februar 2016
+        | Donnerstag, 20:30 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/532099010276642/", title="Konzert mit Quartet | Signum Quartett in Nottingham auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/200824123589641", title="Konzert mit Quartet | Signum Quartett in Leamington")
+        h3(itemprop="name") Quartet | Signum Quartett in Leamington
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-02-26T20:30")
+      time
+        p.date
+          big 26.
+          | Februar 2016
+        | Freitag, 20:30 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/200824123589641/", title="Konzert mit Quartet | Signum Quartett in Leamington auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1107736955937396", title="Konzert mit quartet | Signum Quartett in London, Wigmore Hall")
+        h3(itemprop="name") quartet | Signum Quartett in London, Wigmore Hall
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Wigmore Hall, London, United Kingdom
+      meta(itemprop="startDate", content="2016-02-28T12:30")
+      time
+        p.date
+          big 28.
+          | Februar 2016
+        | Sonntag, 12:30 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1107736955937396/", title="Konzert mit quartet | Signum Quartett in London, Wigmore Hall auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/863724387079546", title="Konzert mit trio süßmann | Rachmaninov in Antwerpen")
+        h3(itemprop="name") trio s&#252;&#223;mann | Rachmaninov in Antwerpen
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Blauwe Zaal, De Singel Kunstencampus, Antwerp, Belgium
+      meta(itemprop="startDate", content="2016-03-06T16:45")
+      time
+        p.date
+          big  6.
+          | März 2016
+        | Sonntag, 16:45 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/863724387079546/", title="Konzert mit trio süßmann | Rachmaninov in Antwerpen auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/517453848413655", title="Konzert mit play&direct | Tallinn Chamber Orchestra")
+        h3(itemprop="name") play&#38;direct | Tallinn Chamber Orchestra
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-04-10T15:00")
+      time
+        p.date
+          big 10.
+          | April 2016
+        | Sonntag, 15:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/517453848413655/", title="Konzert mit play&direct | Tallinn Chamber Orchestra auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/581662905318169", title="Konzert mit chamber music | Lille Norge")
+        h3(itemprop="name") chamber music | Lille Norge
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Kesselhaus &#38; Maschinenhaus (Kulturbrauerei), Berlin, Germany
+      meta(itemprop="startDate", content="2016-04-14T20:00")
+      time
+        p.date
+          big 14.
+          | April 2016
+        | Donnerstag, 20:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/581662905318169/", title="Konzert mit chamber music | Lille Norge auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1532535180405844", title="Konzert mit conductor | Folkwang Kammerorchester")
+        h3(itemprop="name") conductor | Folkwang Kammerorchester
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Villa H&#252;gel (Essen), Essen, Germany
+      meta(itemprop="startDate", content="2016-04-22T20:00")
+      time
+        p.date
+          big 22.
+          | April 2016
+        | Freitag, 20:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1532535180405844/", title="Konzert mit conductor | Folkwang Kammerorchester auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1091400147561238", title="Konzert mit conductor | Folkwang Kammerorchester")
+        h3(itemprop="name") conductor | Folkwang Kammerorchester
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Villa H&#252;gel (Essen), Essen, Germany
+      meta(itemprop="startDate", content="2016-04-23T20:00")
+      time
+        p.date
+          big 23.
+          | April 2016
+        | Samstag, 20:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1091400147561238/", title="Konzert mit conductor | Folkwang Kammerorchester auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1520231264942012", title="Konzert mit conductor | Folkwang Kammerorchester")
+        h3(itemprop="name") conductor | Folkwang Kammerorchester
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") Villa H&#252;gel (Essen), Essen, Germany
+      meta(itemprop="startDate", content="2016-04-24T11:00")
+      time
+        p.date
+          big 24.
+          | April 2016
+        | Sonntag, 11:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1520231264942012/", title="Konzert mit conductor | Folkwang Kammerorchester auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1633956520187881", title="Konzert mit Florian Donderer & Paavo Järvi")
+        h3(itemprop="name") Florian Donderer &#38; Paavo J&#228;rvi
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-05-04T08:00")
+      time
+        p.date
+          big  4.
+          | Mai 2016
+        | Mittwoch, 08:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1633956520187881/", title="Konzert mit Florian Donderer & Paavo Järvi auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/938595112888273", title="Konzert mit Florian Donderer & Paavo Järvi")
+        h3(itemprop="name") Florian Donderer &#38; Paavo J&#228;rvi
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-05-05T08:00")
+      time
+        p.date
+          big  5.
+          | Mai 2016
+        | Donnerstag, 08:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/938595112888273/", title="Konzert mit Florian Donderer & Paavo Järvi auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/764972036957964", title="Konzert mit Florian Donderer & Paavo Järvi")
+        h3(itemprop="name") Florian Donderer &#38; Paavo J&#228;rvi
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-05-07T08:00")
+      time
+        p.date
+          big  7.
+          | Mai 2016
+        | Samstag, 08:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/764972036957964/", title="Konzert mit Florian Donderer & Paavo Järvi auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1654487751494624", title="Konzert mit chamber music | Signum Quartett in der Kölner Philharmonie")
+        h3(itemprop="name") chamber music | Signum Quartett in der K&#246;lner Philharmonie
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") K&#246;lner Philharmonie, Cologne, Germany
+      meta(itemprop="startDate", content="2016-06-21T20:00")
+      time
+        p.date
+          big 21.
+          | Juni 2016
+        | Dienstag, 20:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1654487751494624/", title="Konzert mit chamber music | Signum Quartett in der Kölner Philharmonie auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/977923818920242", title="Konzert mit play&direct | Steven Isserlis & Die Deutsche Kammerphilharmonie")
+        h3(itemprop="name") play&#38;direct | Steven Isserlis &#38; Die Deutsche Kammerphilharmonie
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-09-22T20:00")
+      time
+        p.date
+          big 22.
+          | September 2016
+        | Donnerstag, 20:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/977923818920242/", title="Konzert mit play&direct | Steven Isserlis & Die Deutsche Kammerphilharmonie auf Facebook öffnen") Freunde einladen
+    article(itemscope="", itemtype="http://schema.org/MusicEvent")
+      a.pic(target="_blank", itemprop="url", href="//facebook.com/events/1963828750507960", title="Konzert mit play&direct | Steven Isserlis & Die Deutsche Kammerphilharmonie")
+        h3(itemprop="name") play&#38;direct | Steven Isserlis &#38; Die Deutsche Kammerphilharmonie
+        address(itemprop="location", itemscope="", itemtype="http://schema.org/PostalAddress")
+          p(itemprop="streetAddress") &#160;
+      meta(itemprop="startDate", content="2016-09-24T20:00")
+      time
+        p.date
+          big 24.
+          | September 2016
+        | Samstag, 20:00 Uhr
+      a.invite.btn.small(target="_blank", href="//facebook.com/events/1963828750507960/", title="Konzert mit play&direct | Steven Isserlis & Die Deutsche Kammerphilharmonie auf Facebook öffnen") Freunde einladen
+
+
+
+
+include footer.jade

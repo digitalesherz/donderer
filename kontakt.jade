@@ -1,0 +1,43 @@
+- var title = "Florian Donderer | Kontakt & Impressum"
+
+include head.jade
+
+.navbar-fixed
+  nav(role="navigation").header
+    .nav-wrapper
+      a#logo-container.left.brand-logo(href="index.html") Florian Donderer
+      ul.right.hide-on-med-and-down
+        li
+          a(href="index.html") Home
+        li
+          a(href="vita.html") Vita
+        li
+          a(href="presse.html") Presse
+        li
+          a(href="konzerte.php") Konzerte
+        li
+          a(href="projekte.html") Projekte
+        li
+          a(href="medien.html") Medien
+        li.active
+          a(href="kontakt.html") Kontakt
+      ul#nav-mobile.side-nav.right
+        li
+          a(href="index.html") Home
+        li
+          a(href="vita.html") Vita
+        li
+          a(href="presse.html") Presse
+        li
+          a(href="konzerte.php") Konzerte
+        li
+          a(href="projekte.html") Projekte
+        li
+          a(href="medien.html") Medien
+        li.active
+          a(href="kontakt.html") Kontakt
+      a.button-collapse.right(href="#", data-activates="nav-mobile")
+        i.material-icons menu
+
+
+include footer.jade
