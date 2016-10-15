@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="app.css"><link media="none" onload="if(media!='all')media='all'" rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"><link media="none" onload="if(media!='all')media='all'" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><title>Aktuelle Konzerte | Florian Donderer</title><script src="//code.jquery.com/jquery-2.1.1.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script><script>(function($){
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="app.css"><link media="none" onload="if(media!='all')media='all'" rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"><link media="none" onload="if(media!='all')media='all'" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><title>Aktuelle Konzerte | Florian Donderer</title><link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192"><link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"><link rel="manifest" href="/manifest.json"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><meta name="msapplication-TileColor" content="#da532c"><meta name="msapplication-TileImage" content="/mstile-144x144.png"><meta name="theme-color" content="#ffffff"><meta property="og:title" content="Florian Donderer • violin, viola, directing, conducting, concertmaster"><meta property="og:description" content="«Florian Donderer is an exceptional musician.» — Paavo Järvi. Energisches Spiel und durchdachte Interpretationen machen Florian Donderer zu einem geschätzten Kammermusikpartner für die renommiertesten Musiker."><meta property="og:type" content="article"><meta property="article:author" content="https://www.facebook.com/donderer.violin"><meta property="og:image" content="http://donderer.de/fotos/GSB1684.jpg"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="851"><script src="//code.jquery.com/jquery-2.1.1.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script><script>(function($){
   $(function(){
 
     $('.button-collapse').sideNav({
@@ -6,55 +6,54 @@
     });
 
   }); // end of document ready
-})(jQuery); // end of jQuery name space
-</script>
-</head>
-<body class="konzerte"></body></html><div class="navbar-fixed"><nav role="navigation" class="header"><div class="nav-wrapper"><a id="logo-container" href="index.html" class="left brand-logo">Florian Donderer</a><ul class="right hide-on-med-and-down"><li><a href="index.html">Home</a></li><li><a href="vita.html">Vita</a></li><li><a href="presse.html">Presse</a></li><li class="active"><a href="konzerte.php">Konzerte</a></li><li><a href="projekte.html">Projekte</a></li><li><a href="medien.html">Medien</a></li></ul><ul id="nav-mobile" class="side-nav right"><li><a href="index.html">Home</a></li><li><a href="vita.html">Vita</a></li><li><a href="presse.html">Presse</a></li><li class="active"><a href="konzerte.php">Konzerte</a></li><li><a href="projekte.html">Projekte</a></li><li><a href="medien.html">Medien</a></li></ul><a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a></div></nav></div><div class="row"><div class="col s12 center"><h1>Konzerte</h1></div></div><div class="calendar row"><div class="col s10 push-s1">
+})(jQuery); // end of jQuery name space</script></head><body class="konzerte"></body></html><div class="navbar-fixed"><nav role="navigation" class="header"><div class="nav-wrapper"><a id="logo-container" href="index.html" class="left brand-logo">Florian Donderer</a><ul class="right hide-on-med-and-down"><li><a href="index.html">Home</a></li><li><a href="vita.html">Vita</a></li><li><a href="presse.html">Presse</a></li><li class="active"><a href="konzerte.php">Konzerte</a></li><li><a href="projekte.html">Projekte</a></li><li><a href="medien.html">Medien</a></li><li><a href="impressum.html">Kontakt</a></li></ul><ul id="nav-mobile" class="side-nav right"><li><a href="index.html">Home</a></li><li><a href="vita.html">Vita</a></li><li><a href="presse.html">Presse</a></li><li class="active"><a href="konzerte.php">Konzerte</a></li><li><a href="projekte.html">Projekte</a></li><li><a href="medien.html">Medien</a></li><li><a href="impressum.html">Kontakt</a></li></ul><a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a></div></nav></div><div class="row"><div class="col s12 center"><h1>Konzerte</h1></div></div><div class="calendar row"><div class="col s10 push-s1">
 
 
 
-<?php 
+<?php
 setlocale(LC_TIME, "de_DE");
 $fields="id,name,description,place,timezone,start_time,end_time,cover,ticket";
- 
+
 // $json_link = "https://graph.facebook.com/912637648777417/events?fields={$fields}&access_token=CAACEdEose0cBAFWqBeZCWsqiDmpGimCG0mXw7hmm303RbARQln7r3QEwC6idHBCPUc1JfGDoTFwH6yDMkSgPlZBZACrW0Knk6RUrmhwOjtYEoY27vjwk42ZB9bHZAMK5tdoccAGkTNPnDBS1qLsjmS7PTlYZA1EVkvbEL7ZCTbIgHPcf9sq7WznnHpOq38llzyDAKwViT021gZDZD&locale=de_DE";
-$json_link = "https://graph.facebook.com/v2.5/912637648777417/events?fields={$fields}&access_token=CAACEdEose0cBADlZBa1WuYJIR85j2KIEgqRm09JxW6AAb5iNHJ41zoV6Yd2wZAZB1ISX3Lz0YFmR3g6Db5JGeBjilOrZAcS9rsna28WlCm7ZBf2ZCcjp8uWmpEWthLbOfeI0YEqxC185HF3Dt8ZCunIqF5lKnQDrpM83GRJFIKR1gBDlaJpGc8a7fzLvvQzo1sZD&locale=de_DE";
- 
+// $json_link = "https://graph.facebook.com/v2.5/912637648777417/events?fields={$fields}&access_token=CAAOVlZBZBYPF4BAEVaqwVc0BDswv27AKn1njdLUkx76xGOIcLWwybdkR342cKHH4mZBZBaMX8wLZCZAgBLxGxiGGE46rqRRCbDZC8YyCcGX22Hj03KzZBPo6RKmu1VjQAXnKrVZA9xI71qRkmun6vYkGZBoouiKZBV2I8WtkEXNsbtZADYBThplcMVZAG5YpdZB6e0qiO0CTauqzv7iAZDZD&locale=de_DE";
+$json_link = "https://graph.facebook.com/v2.5/912637648777417/events?fields={$fields}&access_token=1008904722463838|WYsZ9M-EsrqW3qeVGEnKhUVthcU";
+
+
 $json = file_get_contents($json_link);
 
 $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 
 // print_r($obj);
- 
+
     // count the number of events
     $event_count = count($obj['data']);
 
 
- 
+
     for($x=$event_count; $x>=0; $x--){
 
 // echo "<p>".strftime( '%A, %e. %B, %H:%M Uhr', strtotime($obj['data'][$x]['start_time'])) ." - ". strftime( '%A, %e. %B', time())."</p>";
 
 		if(strtotime($obj['data'][$x]['start_time']) > time()) {
 			$start_date = strftime( '%A, %e. %B', strtotime($obj['data'][$x]['start_time']));
-			  
+
 			// in my case, I had to subtract 9 hours to sync the time set in facebook
 			$start_time = strftime( '%H:%M Uhr', strtotime($obj['data'][$x]['start_time']));
-			  
+
 			$pic_big = isset($obj['data'][$x]['cover']['source']) ? $obj['data'][$x]['cover']['source'] : "https://graph.facebook.com/{$fb_page_id}/picture?type=large";
-			 
+
 			$eid = $obj['data'][$x]['id'];
 			$name = $obj['data'][$x]['name'];
 			$description = isset($obj['data'][$x]['description']) ? $obj['data'][$x]['description'] : "";
-			 
+
 			// place
 			$place_name = isset($obj['data'][$x]['place']['name']) ? $obj['data'][$x]['place']['name'] : "";
 			$city = isset($obj['data'][$x]['place']['location']['city']) ? $obj['data'][$x]['place']['location']['city'] : "";
 			$country = isset($obj['data'][$x]['place']['location']['country']) ? $obj['data'][$x]['place']['location']['country'] : "";
 			$zip = isset($obj['data'][$x]['place']['location']['zip']) ? $obj['data'][$x]['place']['location']['zip'] : "";
-			 
+
 			$location="";
-			 
+
 			if($place_name && $city && $country && $zip){
 			    $location="{$place_name}, {$city}, {$country}";
 			    // $location="{$place_name}, {$city}, {$country}, {$zip}";
@@ -86,7 +85,7 @@ $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 </div>
 
 
-</div><div id="social"></div><div class="row"><h3 class="col s12 center-align"><i class="fa fa-twitter"> </i> Twitter</h3></div><div class="row social-feed-container"></div><footer class="page-footer grey lighten-4"><div class="container"><div class="row"><div class="col s10 push-s1 m6 l6"><h5 class="grey-text text-lighten-1">Übersicht</h5><ul class="grey-text"><li><a href="index.html">Home</a></li><li><a href="vita.html">Vita</a></li><li><a href="presse.html">Presse</a></li><li><a href="konzerte.php">Konzerte</a></li><li><a href="projekte.html">Projekte</a></li><li><a href="medien.html">Medien</a></li></ul></div><div class="col s10 push-s1 m6 l3 offset-l3 socialmedia"><h5 class="grey-text text-lighten-1">Social media</h5><ul><li><a target="floSocial" href="//hellostage.com/Florian-Donderer/biography"><img src="fotos/hellostage.png"></a></li><li><a target="floTwitter" href="//twitter.com/intent/follow?screen_name=flozzamusic"><i class="fa fa-twitter"></i></a></li><li><a target="floSocial" href="//facebook.com/donderer.violin"><i class="fa fa-facebook"></i></a></li><li><a target="floSocial" href="//soundcloud.com/flozzamusic"><i class="fa fa-soundcloud"></i></a></li><li><a target="floSocial" href="//youtube.com/channel/UC_N2Hz63EvNRDmWHNVhRqUw/featured"><i class="fa fa-youtube"></i></a></li></ul></div></div></div><div class="footer-copyright grey-text"><div class="container"> <small>Handmade 🔧 von Digitales Herz</small><a href="index.html" class="grey-text right">Florian Donderer, Violine.</a></div></div></footer><script>;( function ( document, window, index )
+</div><div id="social"></div><div class="row"><h3 class="col s12 center-align"><i class="fa fa-twitter"> </i> Twitter</h3></div><div class="row social-feed-container"></div><footer class="page-footer grey lighten-4"><div class="container"><div class="row"><div class="col s10 push-s1 m3 l3"><h5 class="grey-text text-lighten-1">Übersicht</h5><ul class="grey-text"><li><a href="index.html">Home</a></li><li><a href="vita.html">Vita</a></li><li><a href="presse.html">Presse</a></li><li><a href="konzerte.php">Konzerte</a></li><li><a href="projekte.html">Projekte</a></li><li><a href="medien.html">Medien</a></li><li><a href="impressum.html">Kontakt</a></li></ul></div><div class="col s10 push-s1 m4 l4"> <h5 class="grey-text text-lighten-1">Downloads</h5><p> <a href="florian-donderer.vcf"> <span class="fa fa-envelope-o"> </span> Visitenkarte<small> / .vcf</small></a></p><p> <a href="https://www.dropbox.com/sh/43wm02jza6hi2xj/AAB9WV_aNDsM1LLnGSSupS1ba?dl=0"> <span class="fa fa-file-photo-o"> </span> Fotos <small> hochauflösend / HD</small></a></p><p> <a href="https://www.dropbox.com/sh/zg1dq7ejq34l3h0/AAByhJebPwshHOfpPXj6PH8ka?dl=0"> <span class="fa fa-file-text-o"> </span> Lebensläufe <small> / CVs</small></a></p></div><div class="col s10 push-s1 m3 l2 socialmedia"><h5 class="grey-text text-lighten-1">Social media</h5><ul><li><a target="floSocial" href="//hellostage.com/Florian-Donderer/biography"><img src="fotos/hellostage.png"></a></li><li><a target="floTwitter" href="//twitter.com/intent/follow?screen_name=flozzamusic"><i class="fa fa-twitter"></i></a></li><li><a target="floSocial" href="//facebook.com/donderer.violin"><i class="fa fa-facebook"></i></a></li><li><a target="floSocial" href="//soundcloud.com/flozzamusic"><i class="fa fa-soundcloud"></i></a></li><li><a target="floSocial" href="//youtube.com/channel/UC_N2Hz63EvNRDmWHNVhRqUw/featured"><i class="fa fa-youtube"></i></a></li></ul></div></div></div><div class="footer-copyright grey-text"><div class="container"> <small>Website  🔧 <a href="//heinrichklassen.de">handmade von Heinrich Klassen</a></small><a href="index.html" class="grey-text right">Florian Donderer, Violine.</a></div></div></footer><script>;( function ( document, window, index )
 {
   'use strict';
 
@@ -154,7 +153,7 @@ client_id: 'c91d8deda38b483f9fdc75c48e921973'
   access_token: 'CAACEdEose0cBAAabHghleEYNGYMGdvdAVLCL4phheans4Ew2ZB7wRs5nBFZCtr0TB6JEF8DlUeWAfxXeIymZAq308RLM4h1fQEgtcwI4pVfYQn39X0ShMCnjWfToCC9DZCzOoXGqhVY5qaWK9XmepKKOwOsdH7vpMA6pF5aKQWuWIvss2ukUSOHoMsWqFcWHAS3DT2yNSgZDZD' // APP_ID|APP_SECRET
   },
         // GOOGLEPLUS
-        google:{ 
+        google:{
           accounts: ['#flozzamusic'],
           limit: 1,
           access_token: 'AIzaSyDpNQcIwQf5TcKmI8B0rh3e4OodIywJP14'

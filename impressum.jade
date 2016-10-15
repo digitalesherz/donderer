@@ -1,4 +1,4 @@
-- var title = "Impressum | Florian Donderer"
+- var title = "Kontakt & Impressum | Florian Donderer"
 - var bodyclass = "impressum"
 
 include head.jade
@@ -20,8 +20,8 @@ include head.jade
           a(href="projekte.html") Projekte
         li
           a(href="medien.html") Medien
-        //- li
-        //-   a(href="kontakt.html") Kontakt
+        li
+          a(href="impressum.html") Kontakt
       ul#nav-mobile.side-nav.right
         li
           a(href="index.html") Home
@@ -35,19 +35,17 @@ include head.jade
           a(href="projekte.html") Projekte
         li
           a(href="medien.html") Medien
-        //- li
-        //-   a(href="kontakt.html") Kontakt
-        li.nextconcert
+        li
+          a(href="impressum.html") Kontakt
 
       a.button-collapse.right(href="#", data-activates="nav-mobile")
         i.material-icons menu
 
-.row
-  h3.col.s10.push-s1.m5.push-m1 Impressum
-
 
 .row
   .col.s10.push-s1.m4.push-m1
+    h4 Kontakt
+  
     address Florian Donderer
       br
       | Prangenstr. 4
@@ -57,7 +55,14 @@ include head.jade
       | Germany
       br
       br
-      | E-Mail: florian.donderer ät gmx punkt de
+      | E-Mail: 
+      a(href="mailto:kontakt@donderer.de") kontakt@donderer.de
+      br
+      br
+      span.fa.fa-envelope-o  
+      a(href="florian-donderer.vcf") 
+          |  Visitenkarte herunterladen 
+          small  / .vcf
       //- br
       //- | USt-IdNr.: DE 812869405
       //- br
@@ -66,6 +71,7 @@ include head.jade
       //- | Handelsregisternummer HRB 73266
 
   .col.s10.push-s1.m5.push-m2
+    h4 Impressum
     h5 Rechtliche Hinweise zur Webseite
     p Alle Texte, Bilder und weiter hier veröffentlichten Informationen unterliegen dem Urheberrecht des Anbieters, soweit nicht Urheberrechte Dritter bestehen. In jedem Fall ist eine Vervielfältigung, Verbreitung oder öffentliche Wiedergabe ausschließlich im Falle einer widerruflichen und nicht übertragbaren Zustimmung des Anbieters gestattet.
 
